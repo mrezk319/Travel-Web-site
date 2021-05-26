@@ -1,0 +1,79 @@
+body
+{
+	background-image: url("../images/reglogbg.jpeg");
+	background-size:cover;
+}
+
+h1
+{
+	color:white;
+	text-transform:capitalize;
+	font-size:40px;
+	text-align:center;
+	margin:20px auto 0px;
+}
+
+p
+{
+	color:white;
+	text-transform:capitalize;
+	text-align:center;
+	font-style:sans-serif;
+}
+
+div
+{
+	color:white;
+	border: 5px solid white;
+	border-radius:25px;
+	width:400px;
+	height:200px;
+	margin: 10px auto;
+	padding:40px ;
+}
+
+input
+{
+    background-color:transparent; 
+	color:white; 
+	outline: none;
+    height:30px;
+	border:1px solid white; 
+	border-radius:10px;
+}
+
+::placeholder 
+{ 
+	padding-left: 10px;
+    color: white;
+}
+
+
+select
+{
+	background-color:transparent;
+	color:white;
+	outline: none;
+    height:30px;
+	border:1px solid white; 
+	border-radius:10px;
+}
+
+select option
+{
+	color: #000;
+}
+
+#reg
+{
+	width:30%;
+	text-align: center;
+	background-color: transparent;
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	display:block;
+	padding: 7px 15px;
+	margin:auto;
+	cursor: pointer;
+}

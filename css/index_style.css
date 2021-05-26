@@ -1,0 +1,464 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#000;
+}
+
+a{text-decoration: none;}
+.clr , .clearFix{clear: both;}
+.w-80{width: 80%;}
+.w-90{width: 90%;}
+.m-auto{margin: auto;}
+.ovrAuto{overflow:auto;}
+.f-left{float: left;}
+.f-right{float:right;}
+.relt{position: relative;}
+
+.navLink
+{
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+.navItem
+{
+    list-style: none;
+    float: left;
+    font-weight: bold;
+    margin:25px 15px;
+}
+
+
+.forAct
+{
+    position: relative;
+    color: black;
+
+}
+
+.forAct::before
+{
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top:130%;
+    left:45%;
+}
+
+.navLogo
+{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+#forFotter
+{
+    position: relative;
+    height: 500px;
+    background-image:url("../images/fotterbg.jpg");
+    background-size:cover;
+}
+
+#forFotter .lyer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.coustmer
+{
+    position: relative;
+    text-align: center;
+    width: 31.33333%;
+    padding: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    margin:30px 1%;
+    padding-bottom: 50px;
+}
+
+.coustmer > div
+{
+    position: absolute;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:1px solid rgb(177, 177, 177);
+    left: 43%;
+    top:86%;
+}
+
+.coustmer h4
+{
+    font-size: larger;
+    font-weight: bold;
+    margin-top:30px;
+}
+
+.coustmer p
+{
+    font-family:'Segoe UI light';
+    font-size:18px;
+    text-align: left;
+    margin:20px 0;
+}
+
+.coustmer i
+{
+    margin: 10px;
+}
+
+.coustmer span
+{
+    color: rgb(177, 177, 177);
+    margin: 50px;
+}
+
+.coustmer .coust
+{
+    margin: 10px 0;
+}
+
+.coustmer .coust1
+{
+    background-image: url("../images/coustmer1.jpeg");
+    background-size:cover;
+}
+
+.coustmer .coust2
+{
+    background-image: url("../images/coustmer2.jpeg");
+    background-size:cover;
+}
+
+.coustmer .coust3
+{
+    background-image: url("../images/coustmer3.jpeg");
+    background-size:cover;
+}
+
+.coustmers
+{
+    margin: auto;
+    padding: 30px;
+}
+
+nav .f-left
+{
+    position: relative;
+}
+
+.logo
+{
+    position: absolute;
+    top:10px;
+    left:110px;
+}
+.coustReviews
+{
+    font-family: "Noto Serif SC";
+    margin-top: 30px;
+}
+
+.coustReviews h3
+{
+    text-align: center;
+    font-weight: 900;
+    font-size:50px;
+}
+
+.fotter
+{
+    z-index: 31213;
+}
+
+.text-white
+{
+    color: #FFF;
+}
+
+.text-black
+{
+    color: #000;
+}
+
+.fotterHead
+{
+    padding:50px 0px;
+}
+
+.fotterHead h3
+{
+    font-size: 40px;
+}
+
+.fotterHead .f-right .text-white
+{
+    padding:10px 15px;
+    background-color:#05cd51;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.fotterHead .f-right .text-white i
+{
+    color: #FFF !important;
+}
+
+.fotterHead .f-right .text-black
+{
+    padding:10px 15px;
+    background-color:#FFF;
+    border: 2px solid #d93025;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.fotterHead .f-right .text-black i
+{
+    color:#d93025;
+}
+
+
+.fotterBody .desc
+{
+    position: relative;
+    width: 35%;
+    margin:50px 0;
+}
+
+.fotterBody .desc a
+{
+    color: #FFF;
+    margin:25px 0;
+}
+
+.fotterBody .desc p
+{
+    margin: 25px 0;
+    font-size: 18px;
+    width: 80%;
+    color: rgb(177, 177, 177);
+}
+
+.fotterBody .desc .logo
+{
+    top:-10px;
+    left: 27%;
+}
+
+.fotterBody .desc .navLogo
+{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.fotterBody .descF
+{
+    width: 65%;
+    margin:50px 0;
+}
+
+.fotterBody .descF p
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    margin:0 0 20px 0;
+}
+
+.fotterBody .descF ul li
+{
+    cursor: pointer;
+    margin: 8px 0;
+    list-style: none;
+    color: rgb(177, 177, 177);
+}
+
+.descF .des
+{
+    width: 25%;
+    float: left;
+}
+
+.fotter > p 
+{
+    color: rgb(177, 177, 177);
+}
+
+.fotter > p i , .fotter > p span
+{
+    color: red;
+}
+
+.desc i
+{
+    margin: 0 10px;
+}
+
+.fa-facebook-official
+{
+    background-color: #385898;
+    color: #FFF;
+}
+
+.fa-google-plus-square
+{
+    color: #d93025;
+}
+
+.fa-twitter
+{
+    color: #00acee;
+}
+
+.fa-whatsapp
+{
+    color: #05cd51;
+}
+
+
+
+.secondSection
+{
+    padding-top: 80px;    
+}
+.secondSection .title
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'Merienda', cursive;
+
+}
+.secondSection .boxes
+{
+    width: 270px;
+    height: 370px;
+    background-color: #e6e6e6;
+    margin-left: 120px;
+    margin-bottom: 70px;
+    float: left;
+    border: 3px solid #e6e6e6 ;
+    overflow: hidden; 
+}
+
+.boxes .image1
+{
+    width: 100%;
+    height: 180px;
+    background-image: url('../images/Malysia.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+       
+}
+.boxes .image2
+{
+    width: 100%;
+    height: 180px;
+    background-image: url('../images/NewYork.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+.boxes .image3
+{
+    width: 100%;
+    height: 180px;
+    background-image: url('../images/Maldives.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+.boxes .image4
+{
+    width: 100%;
+    height: 180px;
+    background-image: url('../images/italy.jpg');
+    background-size: cover;
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+.boxes .image5
+{
+    width: 100%;
+    height: 180px;
+    background-image: url('../images/Paris.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+.boxes .image6
+{
+    width: 100%;
+    height: 180px;
+    background-image: url('../images/mexico.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+
+.boxes .image1 img ,
+.boxes .image2 img , 
+.boxes .image3 img , 
+.boxes .image4 img , 
+.boxes .image5 img , 
+.boxes .image6 img
+{ 
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    transform: translateX(122px);
+    transition: 1s;
+}
+.boxes:hover img
+{
+  transform: translateX(0px);  
+}
+.boxes .price
+{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    left: 20px;
+    width: 45px;
+    line-height: 45px;
+    background-color: #ff6600;
+    border-radius: 50% 50%;
+    text-align: center;
+    transform: translateX(-66px);
+    transition: 1s;
+    
+}
+.boxes:hover .price
+{
+    transform: translateX(0px);
+}
+.boxes .sentence
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.boxes .sentence p
+{
+    padding-top: 5px;
+    padding-right: 10px;
+    
+}

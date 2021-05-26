@@ -1,0 +1,103 @@
+
+.firstSection .title
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'Merienda', cursive;
+
+}
+
+.firstSection .boxes
+{
+    width: 270px;
+    height: 400px;
+    background-color: #020328;
+    margin-left: 110px;
+    margin-bottom: 70px;
+    float: left;
+    border: 3px solid #ededed;
+    color: white;
+    position: relative;
+}
+.firstSection .boxes img
+{
+    transition:0.5s;
+}
+.firstSection .boxes:hover img
+{
+    transform: scale(1.1,1.1);
+}
+.firstSection .boxes .image
+{
+    overflow: hidden;
+    width:270px;
+    height:200px;
+}
+.boxes .price
+{
+    color: orange;
+}
+.boxes .price span
+{
+    color: white;
+}
+.firstSection .custom
+{
+   float: left;
+   border: 2px solid #66ccff;
+   margin-top: 66px;
+   position: relative;
+    margin-left: -3px;
+}
+.firstSection .custom p
+{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.firstSection .custom input
+{
+    position: absolute; 
+    top: 22px;
+    left: 24px; 
+    width: 80px;
+    outline: none;
+    height: 15px;
+    display: none;
+}
+.firstSection .custom .colors
+{
+    width: 103px;
+    height: 23px;
+    position: absolute;
+    border: 1px solid black;
+    top: 69px;
+    left: 24px; 
+    display: none;
+    background-color: black;
+
+}
+.firstSection .colors div
+{
+    width: 16px;
+    height: 16px;
+    background-color: blue;
+    float: left;
+    margin-left: 12px;
+    margin-top: 2.7px;
+    border-radius: 50% 50%;
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
+}
+
+
+.logoutBtn
+{
+    color: #66ccff;
+    text-decoration: none;
+    border:2px solid gray;
+    padding: 5px 15px;
+    border-radius: 20px;
+}

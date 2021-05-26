@@ -1,0 +1,89 @@
+        *{
+            margin: 0px;
+        }
+        header {
+                background-size: cover;
+                width: auto;
+                height: 650px;
+                background-image: url('../images/pexels-marina-hinic-730778.jpg');
+                background-repeat: no-repeat;
+                background-color: black;
+            }
+            header p{
+                opacity: .7;
+               font-family: arial;
+               font-weight: bold;
+               position: relative;
+               top: -510px;
+                font-size: 190px;
+                color: white;
+                text-align: center;
+            }
+        header div{
+                height: 650px;
+                width: auto;
+                background-color: black;
+                opacity: .4;
+            }
+        .AboutUs{
+            text-align:center;
+            margin: 25px 20% 15px 20%;
+            border: 3px double black;
+            border-radius: 6px;
+            transition: all .5s ease;
+        }
+        .AboutUs:hover{
+            cursor: pointer;
+            box-shadow: -5px 5px 5px gray;
+        }
+        .AboutUs h1{
+            font-family: rockwell;
+            margin-top: 10px;
+            
+        }
+        main p{
+            padding: 10px;
+            font-family: arial;
+            opacity: .7;
+        }
+        main section p{
+            text-align: center;
+            margin: 0px 20% 0px 20%;
+        }
+        main section{
+            margin-top: 30px;
+            text-align: center;
+        }
+        main section img{
+            padding-right: 20px;
+        }
+        main section h1{
+            font-family: rockwell;
+        }
+        main .us{
+            text-align: center;
+        }
+        main .us h1{
+            text-align: center;
+            margin-top: 40px;
+        }
+        main .us h1{
+            font-family: rockwell;
+        }
+        main .us div{
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 50px;
+            margin-bottom: 15px;
+            display: inline-block;
+            width: 500px;
+            transition: all .5s ease;
+            font-size: 20px;
+            background-color: #82CAFA;
+        }
+        main .us div:hover{
+            color: black;
+            cursor: pointer;
+            box-shadow: -5px 5px 10px gray
+        }
